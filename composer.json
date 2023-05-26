@@ -1,0 +1,49 @@
+{
+    "name": "jiumikeji/jwt-auth",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "php",
+        "hyperf"
+    ],
+    "authors": [
+        {
+            "name": "jiumikeji",
+            "email": "root@imoi.cn",
+            "role": "Developer"
+        }
+    ],
+    "description": "jwt-auth Component",
+    "autoload": {
+        "psr-4": {
+            "Jiumikeji\\JWTAuth\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HyperfTest\\": "tests"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "lcobucci/jwt": "~4.1.0",
+        "nesbot/carbon": "^1.0 || ^2.0"
+    },
+    "require-dev": {},
+    "suggest": {
+        "hyperf/utils": "required hyperf/utils ~3.0.0",
+        "hyperf/cache": "required hyperf/cache ~3.0.0",
+        "hyperf/command": "required hyperf/command ~3.0.0",
+        "hyperf/config": "required hyperf/config ~3.0.0",
+        "hyperf/di": "required hyperf/di ~3.0.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {},
+    "extra": {
+        "hyperf": {
+            "config": "Jiumikeji\\JWTAuth\\ConfigProvider"
+        }
+    }
+}
