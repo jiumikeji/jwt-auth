@@ -13,7 +13,7 @@
             "role": "Developer"
         }
     ],
-    "description": "jwt-auth Component",
+    "description": "九米科技有限公司",
     "autoload": {
         "psr-4": {
             "Jiumikeji\\JWTAuth\\": "src/"
