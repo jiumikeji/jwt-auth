@@ -9,9 +9,9 @@ use Jiumikeji\JWTAuth\Util\JWTUtil;
 use Psr\Container\ContainerInterface;
 
 /**
- * https://gitee.com/jiumikeji/jwt-auth
+ * https://github.com/jiumikeji/jwt-auth
  * 原作者 liyuzhao
- * 现维护者：jiumikeji
+ * 现维护者：LBG
  */
 abstract class AbstractJWT implements JWTInterface
 {
@@ -91,7 +91,7 @@ abstract class AbstractJWT implements JWTInterface
         if (empty($config['supported_algs'])) $config['supported_algs'] = $this->supportedAlgs;
         if (empty($config['symmetry_algs'])) $config['symmetry_algs'] = $this->symmetryAlgs;
         if (empty($config['asymmetric_algs'])) $config['asymmetric_algs'] = $this->asymmetricAlgs;
-        if (empty($config['blacklist_prefix'])) $config['blacklist_prefix'] = 'jiumiadmin_jwt';
+        if (empty($config['blacklist_prefix'])) $config['blacklist_prefix'] = 'mineadmin_jwt';
         $scenes = $config['scene'];
         unset($config['scene']);
         foreach ($scenes as $key => $scene) {
