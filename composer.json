@@ -9,11 +9,11 @@
     "authors": [
         {
             "name": "jiumikeji",
-            "email": "929832497@qq.com",
+            "email": "root@imoi.cn",
             "role": "Developer"
         }
     ],
-    "description": "九米科技有限公司",
+    "description": "jwt-auth Component",
     "autoload": {
         "psr-4": {
             "Jiumikeji\\JWTAuth\\": "src/"

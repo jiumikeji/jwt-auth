@@ -10,9 +10,9 @@ use Psr\Container\ContainerInterface;
 use Psr\SimpleCache\CacheInterface;
 
 /**
- * https://github.com/jiumikeji/jwt-auth
+ * https://gitee.com/jiumikeji/jwt-auth
  * 原作者 liyuzhao
- * 现维护者：LBG
+ * 现维护者：jiumikeji
  */
 class BlackList extends AbstractJWT
 {
